@@ -90,6 +90,7 @@
       },
       handleChange() {
         this.$emit('pick',false);
+		console.log('我是文本框里面的东西，change我就触发了')
       },
 
       handleConfirm() {

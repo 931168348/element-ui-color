@@ -123,6 +123,7 @@
         this.$emit('input', value);
         this.$emit('change', value);
         this.dispatch('ElFormItem', 'el.form.change', value);
+		console.log('val=',val)
         if(val){
           this.showPicker = false;
         }
